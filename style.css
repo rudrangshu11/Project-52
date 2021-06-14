@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    background-color: teal;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.menu .hamburger a{
+    text-decoration: none;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+.grid{
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 15px;
+}
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 50px;
+}
+.origami{
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    width: 310px;
+    font-family: 'Courier New';
+}
+.origami:hover{
+    transition: 0.5s ease-in;
+    transform: scale(1.1);
+    color: white;
+    background-color: black;
+}
+.origami:hover img{
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.bodyimg img{
+    position: relative;
+}
+.bodyimg h2{
+    position : absolute;
+    top:15%;
+    left: 50%;
+    transform: translate(-50%,-15%);
+    color: white;
+    font-family: 'Chilanka'
+}
+.bodyimg p{
+    position : absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-family: 'Chilanka';
+    font-size: 1.5rem;
+}
+
+
